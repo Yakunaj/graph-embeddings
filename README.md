@@ -15,7 +15,7 @@ The study makes several contributions:
 ## Repository Contents
 The repository includes the following:
 * `/embeddings/`: Compressed (.zip) files containing the word embeddings in various dimensions (e.g., 50d, 100d, 200d, 250d, 300d).
-* `/evaluation/`: Contains the expert-validated Gold Standard used for semantic evaluation, including the 90 word pairs and their corresponding human similarity scores.
+* `/evaluation/`: Contains the raw evaluation data from five expert linguists. Each file represents an individual assessment of the 90 word pairs used for semantic analysis.
 * **Corpus:** The source corpus used in this study is not distributed here due to copyright considerations. 
 
 > **Note:** Large files are managed using **Git LFS**. To download the embeddings, please ensure you have [Git LFS](https://git-lfs.github.com/) installed and run `git lfs pull` after cloning.
